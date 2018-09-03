@@ -17,6 +17,10 @@ li {
     margin-bottom: 30px;
 }
 
+.twentytwenty-container {
+    height: 0 auto !important;
+}
+
 /* Mobile CSS */
 @media only screen and (max-width: 767px) {}
 
