@@ -17,8 +17,12 @@ li {
     margin-bottom: 30px;
 }
 
-.twentytwenty-container {
-    height: 0 auto !important;
+.twentytwenty-before-label, .twentytwenty-after-label {
+    opacity: 1
+}
+
+.twentytwenty-overlay:hover {
+    background: transparent;
 }
 
 /* Mobile CSS */
