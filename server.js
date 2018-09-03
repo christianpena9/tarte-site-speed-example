@@ -54,6 +54,20 @@ app.get('/section-4', (req, res) => {
     });
 });
 
+// Render Section-4 Desktop Page with HBS
+app.get('/section-4-desktop', (req, res) => {
+    res.render('section-4-desktop.hbs', {
+        pageTitle: 'Section-4 - Desktop'
+    });
+});
+
+// Render Section-4 Desktop Page with HBS
+app.get('/section-4-mobile', (req, res) => {
+    res.render('section-4-mobile.hbs', {
+        pageTitle: 'Section-4 - Mobile'
+    });
+});
+
 // Render About Page with HBS
 app.get('/about', (req, res) => {
     res.render('about.hbs', {
