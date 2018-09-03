@@ -47,6 +47,13 @@ app.get('/', (req, res) => {
     })
 });
 
+// Render Section-4 Page with HBS
+app.get('/section-4', (req, res) => {
+    res.render('section-4.hbs', {
+        pageTitle: 'Section-4'
+    });
+});
+
 // Render About Page with HBS
 app.get('/about', (req, res) => {
     res.render('about.hbs', {
@@ -54,7 +61,7 @@ app.get('/about', (req, res) => {
     });
 });
 
-// Render About Page with HBS
+// Render Projects Page with HBS
 app.get('/projects', (req, res) => {
     res.render('projects.hbs', {
         pageTitle: 'Projects Page'
