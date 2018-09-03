@@ -1,0 +1,25 @@
+{
+  "name": "tarte-site-speed-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianpena9/tarte-site-speed-example.git"
+  },
+  "author": "Christian Pena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christianpena9/tarte-site-speed-example/issues"
+  },
+  "homepage": "https://github.com/christianpena9/tarte-site-speed-example#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "hbs": "^4.0.0",
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {}
+}
