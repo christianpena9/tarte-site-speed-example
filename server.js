@@ -39,7 +39,7 @@ hbs.registerHelper('getCurrentYear', () => {
     return new Date().getFullYear()
 });
 
-// Setting up a GET Request Handler
+// Setting up a GET Request Handler for Home (root)
 app.get('/', (req, res) => {
     res.render('home.hbs', {
         pageTitle: 'Tarte Site Speed Example',
@@ -51,6 +51,13 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about.hbs', {
         pageTitle: 'About Page'
+    });
+});
+
+// Render About Page with HBS
+app.get('/projects', (req, res) => {
+    res.render('projects.hbs', {
+        pageTitle: 'Projects Page'
     });
 });
 
